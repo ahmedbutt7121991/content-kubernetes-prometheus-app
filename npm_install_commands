@@ -1,0 +1,7 @@
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+sudo yum install nodejs -y
+node --version
+npm --version
+npm audit fix
+npm audit
+
